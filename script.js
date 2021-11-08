@@ -12,7 +12,7 @@ userDateInfo.innerHTML=`${weekdays[date.getDay()-1]}, ${date.getDate()} ${month[
 
 
 addInput.addEventListener("keypress", function (event){
-    if (addInput.current.value.length >0 and event.key == "Enter"){
+    if (event.key == "Enter"){
         let inputValue = document.querySelector(".add").value
         let li = document.createElement("li")
         let divText = document.createElement("div")
