@@ -5,7 +5,7 @@ console.log(date.getDay())
 
 let weekdays = ["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"]
 let userDateInfo = document.querySelector("h3")
-let month = ["Января", "Февраля", "Марта", "Апреля", "Мая", "Июня", "Июля", "Августa", "Сентября", "Октябрь", "Ноябрь", "Декабрь"]
+let month = ["Января", "Февраля", "Марта", "Апреля", "Мая", "Июня", "Июля", "Августa", "Сентября", "Октября", "Ноября", "Декабря"]
 
 userDateInfo.innerHTML=`${weekdays[date.getDay()-1]}, ${date.getDate()} ${month[date.getMonth()]}`
 
